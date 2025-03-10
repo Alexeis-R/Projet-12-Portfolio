@@ -1,0 +1,48 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 50px;
+}
+nav h2 {
+  color: #ffb742;
+  font-weight: 600;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 25px;
+  transition: color 0.3s ease;
+}
+nav ul li:hover a {
+  color: #ffb742;
+}
+nav ul li:last-child a {
+  margin: 0;
+}
+
+@media screen and (max-width: 780px) {
+  nav button {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  nav h2 {
+    display: none;
+  }
+  nav ul li a {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=header.css.map */
