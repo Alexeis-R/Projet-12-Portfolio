@@ -1,11 +1,11 @@
-.about {
+#about {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 80px;
   padding: 0 50px;
 }
-.about img {
+#about img {
   width: 280px;
 }
 

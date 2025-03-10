@@ -41,7 +41,8 @@ function Footer() {
           <p>Entrez votre email et soyez informé des nouveautés.</p>
 
           <form>
-            <input type="email" placeholder="Votre adresse email" />
+            <label htmlFor="newsletter-email">Votre adresse email</label>
+            <input type="email" id="newsletter-email" placeholder="Votre adresse email" />
             <button>
               <i className="bx bxl-telegram"></i>
             </button>

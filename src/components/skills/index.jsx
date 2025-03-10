@@ -3,7 +3,7 @@ import "./skills.scss"
 
 function Skills () {
     return (
-        <div className="skills">
+        <div className id="skills">
       <div className="left">
         <div className="info">
           <h3>Quelles sont mes compétences ?</h3>

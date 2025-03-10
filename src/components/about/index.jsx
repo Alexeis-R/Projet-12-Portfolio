@@ -3,7 +3,7 @@ import "./about.scss"
 
 function About () {
     return (
-        <div className="about">
+        <div className id="about">
       <img src="/public/image.webp" />
       <div className="personal_info">
         <h3>À propos de moi</h3>

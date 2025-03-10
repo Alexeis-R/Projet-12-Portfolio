@@ -56,27 +56,27 @@
   margin-top: 30px;
 }
 
-.skills {
+#skills {
   display: flex;
   justify-content: space-around;
   padding: 0 50px;
 }
-.skills .left {
+#skills .left {
   width: 680px;
 }
-.skills .left .info h3 {
+#skills .left .info h3 {
   color: #fff;
   font-size: 30px;
   margin-bottom: 20px;
 }
-.skills .left .info p {
+#skills .left .info p {
   color: #ccc;
   font-size: 14px;
 }
-.skills .left button {
+#skills .left button {
   margin-top: 30px;
 }
-.skills .right {
+#skills .right {
   width: 420px;
   height: 120px;
   display: flex;
@@ -85,7 +85,7 @@
   flex-wrap: wrap;
   gap: 12px;
 }
-.skills .right .item {
+#skills .right .item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,7 +94,7 @@
   height: 50px;
   border-radius: 10px;
 }
-.skills .right .item i {
+#skills .right .item i {
   font-size: 34px;
   color: #fff;
 }
