@@ -4,8 +4,8 @@ import "./about.scss"
 function About () {
     return (
         <div className="about">
-      <img src="assets/image.webp" />
-      <div className="info">
+      <img src="/public/image.webp" />
+      <div className="personal_info">
         <h3>À propos de moi</h3>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque

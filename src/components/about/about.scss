@@ -2,44 +2,33 @@ $primary-color: #ffb742;
 $text-color: #fff;
 $subtitle-color: #ccc;
 
-.info {
-  /* height: 640px; si rajout des vignettes */
-  height: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+// .personal_info {
+//   /* height: 640px; si rajout des vignettes */
+//   height: 320px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
 
-  h4 {
-    font-size: 32px;
-    color: $text-color;
-    font-weight: 600;
+//   h3 {
+//     font-size: 32px;
+//     color: $text-color;
+//     font-weight: 600;
+//   }
 
-    span {
-      color: $primary-color;
-      text-decoration: underline;
-    }
-  }
+//   p {
+//     font-size: 44px;
+//     font-weight: 600;
+//     color: $text-color;
+//     margin-top: 8px;
+//   }
 
-  p.title {
-    font-size: 44px;
-    font-weight: 600;
-    color: $text-color;
-    margin-top: 8px;
-  }
-
-  /* p.subtitle {
-    font-size: 16px;
-    color: $subtitle-color;
-    margin-top: 20px;
-  } */
-
-  img {
-    width: 200px;
-    height: 200px;
-    margin-top: 100px;
-  }
-}
+//   img {
+//     width: 200px;
+//     height: 200px;
+//     margin-top: 100px;
+//   }
+// }
 
 .about {
   display: flex;
@@ -51,8 +40,8 @@ $subtitle-color: #ccc;
   img {
     width: 280px;
   }
-
-  .info {
+}
+  .personal_info{
     h3 {
       color: $text-color;
       font-size: 32px;
@@ -69,7 +58,7 @@ $subtitle-color: #ccc;
       margin-top: 30px;
     }
   }
-}
+
 
 @media screen and (max-width: 780px){
   .about {

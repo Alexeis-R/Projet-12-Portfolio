@@ -37,7 +37,6 @@
 }
 @media screen and (max-width: 650px) {
   .info {
-    margin-top: 50px;
     /* height: 320px; si vignette */
     height: 150px;
     display: flex;
@@ -56,6 +55,9 @@
   }
 }
 @media screen and (max-width: 480px) {
+  .info h4 {
+    font-size: 19px !important;
+  }
   .info p.title {
     font-size: 18px !important;
   }
