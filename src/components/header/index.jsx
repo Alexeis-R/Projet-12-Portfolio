@@ -16,7 +16,7 @@ function Header() {
   return (
     <header>
       <nav>
-        <h2>Alexeis ROCHA</h2>
+        <h1>Alexeis ROCHA</h1>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#skills">Skills</a></li>
