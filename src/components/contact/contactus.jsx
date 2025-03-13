@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import './ContactUs.scss';
 
 function ContactUs({ isOpen, onRequestClose }) {
   const form = useRef();

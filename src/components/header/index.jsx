@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import "./header.scss";
-import ContactUs from "../contact/ContactUs";
+import ContactUs from "../contact/contactus";
 
 function Header() {
   const [showContactForm, setShowContactForm] = useState(false);
