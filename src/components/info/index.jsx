@@ -3,10 +3,10 @@ import "./info.scss"
 
 function Info () {
     return (
-        <div className="info">
-        <h4>Bonjour, je m'appelle <span>Alexeis</span> 👋</h4>
+        <section className="info">
+        <h2>Bonjour, je m'appelle <span>Alexeis</span> 👋</h2>
         <p className="title">Développeur Front-End</p>
-      </div>
+      </section>
     )
 }
 

@@ -3,11 +3,11 @@ import "./skills.scss"
 
 function Skills () {
     return (
-        <div className id="skills">
-      <div className="left">
-        <div className="info">
-          <h3>Quelles sont mes compétences ?</h3>
-          <p>
+        <section className id="skills">
+           <div className="left">
+            <div className="info">
+            <h3>Quelles sont mes compétences ?</h3>
+            <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
             officia ea fugiat consequuntur doloremque quisquam illo ducimus
             numquam, expedita amet, totam ipsa excepturi itaque nobis labore
@@ -41,7 +41,7 @@ function Skills () {
           <i className="bx bxl-nodejs"></i>
         </div>
       </div>
-    </div>
+    </section>
     )
 }
 

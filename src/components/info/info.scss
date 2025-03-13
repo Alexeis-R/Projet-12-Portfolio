@@ -10,7 +10,7 @@ $subtitle-color: #ccc;
   align-items: center;
   justify-content: center;
 
-  h4 {
+  h2 {
     font-size: 32px;
     color: $text-color;
     font-weight: 600;
@@ -38,7 +38,7 @@ $subtitle-color: #ccc;
 
 @media screen and (max-width: 780px){
   .info {
-    h4 {
+    h2 {
       font-size: 24px!important;
     }
   
@@ -59,7 +59,7 @@ $subtitle-color: #ccc;
     display: flex;
     justify-content: start;
 
-    h4 {
+    h2 {
       font-size: 20px!important;
     }
 
@@ -81,7 +81,7 @@ $subtitle-color: #ccc;
 
 @media screen and (max-width: 480px){
   .info {
-    h4 {
+    h2 {
       font-size: 19px!important;
     }
     p {
