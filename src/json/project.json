@@ -1,0 +1,36 @@
+{
+    "projects": [
+      {
+        "name": "Kasa",
+        "description": "Application web de location immobilière",
+        "image": "/public/kasa.webp",
+        "url": "",
+        "tags": [
+          { "label": "HTML" },
+          { "label": "REACT" },
+          { "label": "SASS" }
+        ]
+      },
+      {
+        "name": "ROCK PAPER SCISSORS",
+        "description": "Jeu du pierre-feuille-ciseaux",
+        "image": "/public/rock_paper_scissor.webp",
+        "url": "",
+        "tags": [
+          { "label": "HTML" },
+          { "label": "CSS" },
+          { "label": "JAVASCRIPT"}
+        ]
+      },
+      {
+        "name": "OHMYFOOD",
+        "description": " Application web de réservation de restaurant",
+        "image": "/public/ohmyfood.webp",
+        "url": "",
+        "tags": [
+          { "label": "HTML" },
+          { "label": "SASS" }
+        ]
+      }
+    ]
+  }
