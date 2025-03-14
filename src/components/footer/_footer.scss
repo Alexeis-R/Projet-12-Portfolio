@@ -1,10 +1,5 @@
-$primary-color: #ffb742;
-$text-color: #fff;
-$subtitle-color: #ccc;
-$background-dark: #383e45;
-$footer-bg: #1c1c1c;
-$footer-text: #7b7b7b;
 
+@import "../../style/variables.scss";
 .info {
   /* height: 640px; si rajout des vignettes */
   height: 320px;
@@ -15,11 +10,11 @@ $footer-text: #7b7b7b;
 
   h4 {
     font-size: 32px;
-    color: $text-color;
+    color: $text-color-dark;
     font-weight: 600;
 
     span {
-      color: $primary-color;
+      color: $text-color-dark;
       text-decoration: underline;
     }
   }
@@ -27,15 +22,9 @@ $footer-text: #7b7b7b;
   p.title {
     font-size: 44px;
     font-weight: 600;
-    color: $text-color;
+    color: ◊;
     margin-top: 8px;
   }
-
-  /* p.subtitle {
-    font-size: 16px;
-    color: $subtitle-color;
-    margin-top: 20px;
-  } */
 
   img {
     width: 200px;
@@ -57,14 +46,14 @@ $footer-text: #7b7b7b;
 
   .info {
     h3 {
-      color: $text-color;
+      color: $text-color-dark;
       font-size: 32px;
       font-weight: 600;
       margin-bottom: 10px;
     }
 
     p {
-      color: $subtitle-color;
+      color: $tertiary-color;
       font-size: 14px;
     }
 
@@ -84,13 +73,13 @@ $footer-text: #7b7b7b;
 
     .info {
       h3 {
-        color: $text-color;
+        color: $text-color-dark;
         font-size: 30px;
         margin-bottom: 20px;
       }
 
       p {
-        color: $subtitle-color;
+        color: $secondary-color;
         font-size: 14px;
       }
     }
@@ -113,14 +102,14 @@ $footer-text: #7b7b7b;
       display: flex;
       align-items: center;
       justify-content: center;
-      background: $background-dark;
+      background: $background-color-dark;
       width: 50px;
       height: 50px;
       border-radius: 10px;
 
       i {
         font-size: 34px;
-        color: $text-color;
+        color: $text-color-dark;
       }
     }
   }
@@ -151,15 +140,15 @@ footer {
 
     button {
       background: transparent;
-      border: 1px solid #000;
+      border: 1px solid $background-color-dark;
       cursor: pointer;
       padding: 8px 20px;
       border-radius: 100px;
       transition: all 0.3s ease;
 
       &:hover {
-        background-color: $text-color;
-        border-color: $text-color;
+        background-color: $text-color-dark;
+        border-color: $text-color-dark;
       }
     }
   }
@@ -177,7 +166,7 @@ footer {
       }
 
       p {
-        color: $subtitle-color;
+        color: $secondary-color;
         font-size: 13px;
       }
     }
@@ -186,14 +175,14 @@ footer {
       flex: 3;
 
       h4 {
-        color: $text-color;
+        color: $text-color-dark;
         margin-bottom: 20px;
       }
 
       a {
         display: block;
         text-decoration: none;
-        color: $footer-text;
+        color: $text-color-dark ;
         font-size: 14px;
         line-height: 26px;
         transition: color 0.3s ease;
@@ -208,12 +197,12 @@ footer {
       flex: 3;
 
       h4 {
-        color: $text-color;
+        color: $text-color-dark;
         margin-bottom: 20px;
       }
 
       p {
-        color: $footer-text;
+        color: $tertiary-color;
         font-size: 15px;
       }
 
@@ -248,7 +237,7 @@ footer {
           transition: background-color 0.3s ease;
 
           &:hover {
-            background-color: #fb8c00;
+            background-color: $primary-color;
           }
 
           i {

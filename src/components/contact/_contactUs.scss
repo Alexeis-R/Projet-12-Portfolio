@@ -1,3 +1,5 @@
+@import "../../style/variables.scss";
+
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -11,7 +13,7 @@
 }
 
 .modal-content {
-  background: white;
+  background:$text-color-dark;
   padding: 20px;
   border-radius: 5px;
   position: relative;
@@ -28,13 +30,13 @@
 }
 
 .error-message {
-  color: red;
+  color: $primary-color-red;
   font-weight: bold;
   margin-top: 10px;
 }
 
 .confirmation-message {
-  color: green;
+  color: $grenn-color;
   font-weight: bold;
   margin-top: 10px;
 }

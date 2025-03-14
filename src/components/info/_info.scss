@@ -1,7 +1,4 @@
-$primary-color: #ffb742;
-$text-color: #fff;
-$subtitle-color: #ccc;
-
+@import "../../style/variables.scss";
 .info {
   /* height: 640px; si rajout des vignettes */
   height: 320px;
@@ -12,7 +9,7 @@ $subtitle-color: #ccc;
 
   h2 {
     font-size: 32px;
-    color: $text-color;
+    color: $text-color-dark;
     font-weight: 600;
 
     span {
@@ -24,7 +21,7 @@ $subtitle-color: #ccc;
   p.title {
     font-size: 44px;
     font-weight: 600;
-    color: $text-color;
+    color: $text-color-dark;
     margin-top: 8px;
   }
 

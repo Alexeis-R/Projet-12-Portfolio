@@ -1,8 +1,9 @@
+@import "../../style/variables";
 .seprator {
     margin: 50px 50px 30px;
     padding: 10px 20px;
-    background: rgba(255, 255, 255, 0.08);
+    background: $background-seprator-dark;
     display: inline-block;
-    color: #ffb742;
+    color: $primary-color;
     border-radius: 12px;
   }

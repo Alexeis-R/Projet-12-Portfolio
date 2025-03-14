@@ -1,34 +1,4 @@
-$primary-color: #ffb742;
-$text-color: #fff;
-$subtitle-color: #ccc;
-
-// .personal_info {
-//   /* height: 640px; si rajout des vignettes */
-//   height: 320px;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-
-//   h3 {
-//     font-size: 32px;
-//     color: $text-color;
-//     font-weight: 600;
-//   }
-
-//   p {
-//     font-size: 44px;
-//     font-weight: 600;
-//     color: $text-color;
-//     margin-top: 8px;
-//   }
-
-//   img {
-//     width: 200px;
-//     height: 200px;
-//     margin-top: 100px;
-//   }
-// }
+@import "../../style/variables.scss";
 
 #about {
   display: flex;
@@ -43,14 +13,14 @@ $subtitle-color: #ccc;
 }
   .personal_info{
     h3 {
-      color: $text-color;
+      color: $text-color-dark;
       font-size: 32px;
       font-weight: 600;
       margin-bottom: 10px;
     }
 
     p {
-      color: $subtitle-color;
+      color: $secondary-color;
       font-size: 14px;
     }
 

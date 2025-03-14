@@ -35,7 +35,7 @@ function Footer() {
           <a href="https://github.com/Alexeis-R">Github</a>
         </div>
 
-        <div className="news-col">
+        {/* <div className="news-col">
           <h4>Newsletter</h4>
           <p>Entrez votre email et soyez informé des nouveautés.</p>
 
@@ -46,7 +46,7 @@ function Footer() {
               <i className="bx bxl-telegram"></i>
             </button>
           </form>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

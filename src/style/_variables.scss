@@ -1,0 +1,95 @@
+/****** Dark Mode Orange ******/
+$primary-color: #ffb742;             
+$background-color-dark: #000000;
+$text-color-dark: #ffffff;
+$secondary-color: #ccc;
+$tertiary-color: #7b7b7b;
+$background-seprator-dark:#383e45;
+$grenn-color: #4caf50;
+$footer-bg: #1c1c1c;
+
+$primary-color-blue: #1e88e5;
+
+$primary-color-red: #e53935;
+
+/****** Light Mode ******/
+$background-color-light: #ffffff;
+$text-color-light: #000000;
+
+/* Application des variables */
+body[data-theme="light"] {
+    background-color: $background-color-light;
+    color: $text-color-light;
+
+    h2, p {
+        color: $text-color-light;
+    }
+
+    .info h2, .info p {
+        color: $text-color-light;
+    }
+
+    .personal_info h3 {
+        color: $text-color-light;
+    }
+
+    .seprator {
+        color: $primary-color;
+    }
+
+    li a {
+        color: $text-color-light;
+    }
+
+    #skills .left .info p {
+        color: $text-color-light;
+    }
+
+    .start h3, .start p, .start button {
+        color: $text-color-light;
+    }
+}
+
+body[data-theme="dark"] {
+    background-color: $background-color-dark;
+    color: $text-color-dark;
+
+    h2, p {
+        color: $text-color-dark;
+    }
+
+    .info h2, .info p {
+        color: $text-color-dark;
+    }
+
+    .personal_info h3 {
+        color: $text-color-dark;
+    }
+
+    .seprator {
+        color: $primary-color;
+    }
+
+    li a {
+        color: $text-color-dark;
+    }
+
+    #skills .left .info p {
+        color: $text-color-dark;
+    }
+
+    .start h3, .start p, .start button {
+        color: $text-color-dark;
+        
+    }
+    .start button {
+        border: 1px solid $text-color-dark;
+    }
+}
+
+/* Bouton de basculement */
+#theme-toggle {
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
