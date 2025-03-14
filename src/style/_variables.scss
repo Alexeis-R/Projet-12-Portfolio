@@ -1,5 +1,5 @@
 /****** Dark Mode Orange ******/
-$primary-color: #ffb742;             
+$primary-color: #1876C9;             
 $background-color-dark: #000000;
 $text-color-dark: #ffffff;
 $secondary-color: #ccc;
@@ -8,7 +8,6 @@ $background-seprator-dark:#383e45;
 $grenn-color: #4caf50;
 $footer-bg: #1c1c1c;
 
-$primary-color-blue: #1e88e5;
 
 $primary-color-red: #e53935;
 
@@ -35,6 +34,7 @@ body[data-theme="light"] {
 
     .seprator {
         color: $primary-color;
+        background-color: $text-color-dark;
     }
 
     li a {
@@ -42,6 +42,9 @@ body[data-theme="light"] {
     }
 
     #skills .left .info p {
+        color: $text-color-light;
+    }
+    #skills .left .info h3 {
         color: $text-color-light;
     }
 

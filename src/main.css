@@ -17,12 +17,16 @@ body[data-theme=light] .personal_info h3 {
   color: #000000;
 }
 body[data-theme=light] .seprator {
-  color: #ffb742;
+  color: #1876C9;
+  background-color: #ffffff;
 }
 body[data-theme=light] li a {
   color: #000000;
 }
 body[data-theme=light] #skills .left .info p {
+  color: #000000;
+}
+body[data-theme=light] #skills .left .info h3 {
   color: #000000;
 }
 body[data-theme=light] .start h3, body[data-theme=light] .start p, body[data-theme=light] .start button {
@@ -43,7 +47,7 @@ body[data-theme=dark] .personal_info h3 {
   color: #ffffff;
 }
 body[data-theme=dark] .seprator {
-  color: #ffb742;
+  color: #1876C9;
 }
 body[data-theme=dark] li a {
   color: #ffffff;
@@ -94,12 +98,16 @@ body[data-theme=light] .personal_info h3 {
   color: #000000;
 }
 body[data-theme=light] .seprator {
-  color: #ffb742;
+  color: #1876C9;
+  background-color: #ffffff;
 }
 body[data-theme=light] li a {
   color: #000000;
 }
 body[data-theme=light] #skills .left .info p {
+  color: #000000;
+}
+body[data-theme=light] #skills .left .info h3 {
   color: #000000;
 }
 body[data-theme=light] .start h3, body[data-theme=light] .start p, body[data-theme=light] .start button {
@@ -120,7 +128,7 @@ body[data-theme=dark] .personal_info h3 {
   color: #ffffff;
 }
 body[data-theme=dark] .seprator {
-  color: #ffb742;
+  color: #1876C9;
 }
 body[data-theme=dark] li a {
   color: #ffffff;
@@ -190,12 +198,16 @@ body[data-theme=light] .personal_info h3 {
   color: #000000;
 }
 body[data-theme=light] .seprator {
-  color: #ffb742;
+  color: #1876C9;
+  background-color: #ffffff;
 }
 body[data-theme=light] li a {
   color: #000000;
 }
 body[data-theme=light] #skills .left .info p {
+  color: #000000;
+}
+body[data-theme=light] #skills .left .info h3 {
   color: #000000;
 }
 body[data-theme=light] .start h3, body[data-theme=light] .start p, body[data-theme=light] .start button {
@@ -216,7 +228,7 @@ body[data-theme=dark] .personal_info h3 {
   color: #ffffff;
 }
 body[data-theme=dark] .seprator {
-  color: #ffb742;
+  color: #1876C9;
 }
 body[data-theme=dark] li a {
   color: #ffffff;
@@ -296,12 +308,16 @@ body[data-theme=light] .personal_info h3 {
   color: #000000;
 }
 body[data-theme=light] .seprator {
-  color: #ffb742;
+  color: #1876C9;
+  background-color: #ffffff;
 }
 body[data-theme=light] li a {
   color: #000000;
 }
 body[data-theme=light] #skills .left .info p {
+  color: #000000;
+}
+body[data-theme=light] #skills .left .info h3 {
   color: #000000;
 }
 body[data-theme=light] .start h3, body[data-theme=light] .start p, body[data-theme=light] .start button {
@@ -322,7 +338,7 @@ body[data-theme=dark] .personal_info h3 {
   color: #ffffff;
 }
 body[data-theme=dark] .seprator {
-  color: #ffb742;
+  color: #1876C9;
 }
 body[data-theme=dark] li a {
   color: #ffffff;
@@ -451,7 +467,7 @@ footer .start {
   align-items: center;
   justify-content: space-around;
   position: absolute;
-  background-color: #ffb742;
+  background-color: #1876C9;
   padding: 30px 25px;
   border-radius: 15px;
   width: 70%;
@@ -482,7 +498,7 @@ footer .cols .about-col {
   flex: 3;
 }
 footer .cols .about-col h3 {
-  color: #ffb742;
+  color: #1876C9;
   margin-bottom: 20px;
 }
 footer .cols .about-col p {
@@ -505,7 +521,7 @@ footer .cols .links-col a {
   transition: color 0.3s ease;
 }
 footer .cols .links-col a:hover {
-  color: #ffb742;
+  color: #1876C9;
 }
 footer .cols .news-col {
   flex: 3;
@@ -538,7 +554,7 @@ footer .cols .news-col form button {
   justify-content: center;
   width: 45px;
   height: 45px;
-  background: #ffb742;
+  background: #1876C9;
   border: none;
   border-radius: 50%;
   position: absolute;
@@ -548,7 +564,7 @@ footer .cols .news-col form button {
   transition: background-color 0.3s ease;
 }
 footer .cols .news-col form button:hover {
-  background-color: #ffb742;
+  background-color: #1876C9;
 }
 footer .cols .news-col form button i {
   font-size: 26px;
@@ -613,12 +629,16 @@ body[data-theme=light] .personal_info h3 {
   color: #000000;
 }
 body[data-theme=light] .seprator {
-  color: #ffb742;
+  color: #1876C9;
+  background-color: #ffffff;
 }
 body[data-theme=light] li a {
   color: #000000;
 }
 body[data-theme=light] #skills .left .info p {
+  color: #000000;
+}
+body[data-theme=light] #skills .left .info h3 {
   color: #000000;
 }
 body[data-theme=light] .start h3, body[data-theme=light] .start p, body[data-theme=light] .start button {
@@ -639,7 +659,7 @@ body[data-theme=dark] .personal_info h3 {
   color: #ffffff;
 }
 body[data-theme=dark] .seprator {
-  color: #ffb742;
+  color: #1876C9;
 }
 body[data-theme=dark] li a {
   color: #ffffff;
@@ -669,7 +689,7 @@ nav {
   padding: 0 50px;
 }
 nav h1 {
-  color: #ffb742;
+  color: #1876C9;
   font-weight: 600;
 }
 nav ul {
@@ -686,7 +706,7 @@ nav ul li a {
   transition: color 0.3s ease;
 }
 nav ul li:hover a {
-  color: #ffb742;
+  color: #1876C9;
 }
 nav ul li:last-child a {
   margin: 0;
@@ -726,12 +746,16 @@ body[data-theme=light] .personal_info h3 {
   color: #000000;
 }
 body[data-theme=light] .seprator {
-  color: #ffb742;
+  color: #1876C9;
+  background-color: #ffffff;
 }
 body[data-theme=light] li a {
   color: #000000;
 }
 body[data-theme=light] #skills .left .info p {
+  color: #000000;
+}
+body[data-theme=light] #skills .left .info h3 {
   color: #000000;
 }
 body[data-theme=light] .start h3, body[data-theme=light] .start p, body[data-theme=light] .start button {
@@ -752,7 +776,7 @@ body[data-theme=dark] .personal_info h3 {
   color: #ffffff;
 }
 body[data-theme=dark] .seprator {
-  color: #ffb742;
+  color: #1876C9;
 }
 body[data-theme=dark] li a {
   color: #ffffff;
@@ -788,7 +812,7 @@ body[data-theme=dark] .start button {
   font-weight: 600;
 }
 .info h2 span {
-  color: #ffb742;
+  color: #1876C9;
   text-decoration: underline;
 }
 .info p.title {
@@ -855,12 +879,16 @@ body[data-theme=light] .personal_info h3 {
   color: #000000;
 }
 body[data-theme=light] .seprator {
-  color: #ffb742;
+  color: #1876C9;
+  background-color: #ffffff;
 }
 body[data-theme=light] li a {
   color: #000000;
 }
 body[data-theme=light] #skills .left .info p {
+  color: #000000;
+}
+body[data-theme=light] #skills .left .info h3 {
   color: #000000;
 }
 body[data-theme=light] .start h3, body[data-theme=light] .start p, body[data-theme=light] .start button {
@@ -881,7 +909,7 @@ body[data-theme=dark] .personal_info h3 {
   color: #ffffff;
 }
 body[data-theme=dark] .seprator {
-  color: #ffb742;
+  color: #1876C9;
 }
 body[data-theme=dark] li a {
   color: #ffffff;
@@ -908,7 +936,7 @@ body[data-theme=dark] .start button {
   padding: 10px 20px;
   background: #383e45;
   display: inline-block;
-  color: #ffb742;
+  color: #1876C9;
   border-radius: 12px;
 }
 
@@ -929,12 +957,16 @@ body[data-theme=light] .personal_info h3 {
   color: #000000;
 }
 body[data-theme=light] .seprator {
-  color: #ffb742;
+  color: #1876C9;
+  background-color: #ffffff;
 }
 body[data-theme=light] li a {
   color: #000000;
 }
 body[data-theme=light] #skills .left .info p {
+  color: #000000;
+}
+body[data-theme=light] #skills .left .info h3 {
   color: #000000;
 }
 body[data-theme=light] .start h3, body[data-theme=light] .start p, body[data-theme=light] .start button {
@@ -955,7 +987,7 @@ body[data-theme=dark] .personal_info h3 {
   color: #ffffff;
 }
 body[data-theme=dark] .seprator {
-  color: #ffb742;
+  color: #1876C9;
 }
 body[data-theme=dark] li a {
   color: #ffffff;
@@ -991,7 +1023,7 @@ body[data-theme=dark] .start button {
   font-weight: 600;
 }
 .info h4 span {
-  color: #ffb742;
+  color: #1876C9;
   text-decoration: underline;
 }
 .info p.title {
