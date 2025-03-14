@@ -3,7 +3,7 @@ import React from "react";
 function About () {
     return (
         <div className id="about">
-      <img src="/public/image.webp" alt="Photo Alexeis"/>
+      <img src="/image.webp" alt="Photo Alexeis"/>
       <div className="personal_info">
         <h3>À propos de moi</h3>
         <p>
