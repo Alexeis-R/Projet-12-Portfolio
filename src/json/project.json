@@ -4,7 +4,7 @@
         "name": "Kasa",
         "description": "Application web de location immobilière",
         "image": "/public/kasa.webp",
-        "url": "",
+        "url": "https://kasa-alexeis.netlify.app/",
         "tags": [
           { "label": "HTML" },
           { "label": "REACT" },
@@ -26,10 +26,20 @@
         "name": "OHMYFOOD",
         "description": " Application web de réservation de restaurant",
         "image": "/public/ohmyfood.webp",
-        "url": "",
+        "url": "https://ohmyfood-alexeis.netlify.app/",
         "tags": [
           { "label": "HTML" },
           { "label": "SASS" }
+        ]
+      },
+      {
+        "name": "BOOKI",
+        "description": "Application de reservation d'hotel",
+        "image": "/public/Booki.webp",
+        "url": "https://booki-alexeis.netlify.app/",
+        "tags": [
+          { "label": "HTML" },
+          { "label": "CSS" }
         ]
       }
     ]
