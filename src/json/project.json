@@ -15,7 +15,7 @@
         "name": "ROCK PAPER SCISSORS",
         "description": "Jeu du pierre-feuille-ciseaux",
         "image": "/public/rock_paper_scissor.webp",
-        "url": "",
+        "url": "https://rock-paper-scissors-alexeis.netlify.app/",
         "tags": [
           { "label": "HTML" },
           { "label": "CSS" },
