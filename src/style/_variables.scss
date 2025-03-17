@@ -51,6 +51,24 @@ body[data-theme="light"] {
     .start h3, .start p, .start button {
         color: $text-color-light;
     }
+    .project-tag{
+        background-color: $primary-color;
+        color: $text-color-dark
+    }
+    .start h3,
+    .start p{
+        color: $text-color-dark;
+    }
+    .start button {
+        border: 1px solid $text-color-dark;
+        color: $text-color-dark;
+    }
+    .error-message {
+        color: $primary-color-red;
+    }
+    .confirm-message {
+        color: $grenn-color;
+    }
 }
 
 body[data-theme="dark"] {
@@ -89,6 +107,25 @@ body[data-theme="dark"] {
     .start button {
         border: 1px solid $text-color-dark;
     }
+    .project-card {
+        background-color: $text-color-light;
+    }
+    .project-tag{
+        background-color: $primary-color;
+    }
+    .error-message {
+        color: $primary-color-red;
+    }
+    .confirm-message {
+        color: $grenn-color;
+    }
+    .modal-content {
+        background-color: $text-color-dark;
+    }
+    label {
+        color: $text-color-light;
+    }
+
 }
 
 /* Bouton de basculement */
