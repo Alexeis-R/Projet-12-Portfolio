@@ -1,6 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
+import ContactUs from "../contact/contactus";
 
 function Footer() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
   return (
     <footer>
       <div className="start">
@@ -9,7 +15,7 @@ function Footer() {
           Intéressé à travailler ensemble ? Nous devrions organiser une
           discussion.
         </p>
-        <button>Allons-y</button>
+        <button onClick={openModal}>Allons-y</button>
       </div>
 
       <div className="cols">
@@ -48,6 +54,8 @@ function Footer() {
           </form>
         </div> */}
       </div>
+
+      <ContactUs isOpen={isModalOpen} onRequestClose={closeModal} />
     </footer>
   );
 }
