@@ -9,7 +9,6 @@ function Projects() {
 
     return (
         <div className="project-content" id="projets">
-            <h3 className="project-title">Mes projets</h3>
             <div className="project-grid">
                 {projects.map((project) => (
                     <div key={project.id} className="project-card">
