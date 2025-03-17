@@ -58,14 +58,14 @@ function ContactUs({ isOpen, onRequestClose }) {
           <label>Name</label>
           <input
             type="text"
-            name="user_name"
+            name="from_name"
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
           />
           <label>Email</label>
           <input
             type="email"
-            name="user_email"
+            name="from_email"
             value={userEmail}
             onChange={(e) => setUserEmail(e.target.value)}
           />
