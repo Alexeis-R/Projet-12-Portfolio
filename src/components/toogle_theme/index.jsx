@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
-function ThemeToggle () {
+
+function ThemeToggle() {
   const [theme, setTheme] = useState('light');
 
   useEffect(() => {
@@ -12,10 +13,10 @@ function ThemeToggle () {
   };
 
   return (
-    <button id="theme-toggle" onClick={toggleTheme}>
-      Changer de thème
+    <button className="theme-toggle" onClick={toggleTheme}>
+      <i className="fas fa-adjust"></i>
     </button>
   );
-};
+}
 
 export default ThemeToggle;
