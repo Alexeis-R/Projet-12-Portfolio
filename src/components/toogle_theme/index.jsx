@@ -13,7 +13,7 @@ function ThemeToggle() {
   };
 
   return (
-    <button className="theme-toggle" onClick={toggleTheme}>
+    <button className="theme-toggle" aria-label="Basculer le thème" onClick={toggleTheme}>
       <i className="fas fa-adjust"></i>
     </button>
   );
