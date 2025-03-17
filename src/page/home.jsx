@@ -4,6 +4,7 @@ import Info from "../components/info"
 import Seprator from "../components/seprator";
 import About from   "../components/about"
 import Skills from "../components/skills";
+import Projects from "../components/project";
 
 function Home () {
     return (
@@ -13,8 +14,8 @@ function Home () {
             <Seprator text="Qui suis-je ?" />
             <About></About>
             <Seprator text="Mes compétences" />
-            <Skills>
-            </Skills>
+            <Skills></Skills>
+            <Projects></Projects>
         </main>
        </Layout>
     )
