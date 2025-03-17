@@ -70,3 +70,70 @@
   font-weight: bold;
   margin-top: 10px;
 }
+
+// Responsive pour les écrans de tablette
+@media (max-width: 768px) {
+  .modal-content {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .modal-content form {
+    width: 100%;
+  }
+
+  .modal-content form input, 
+  .modal-content form textarea {
+    font-size: 1rem;
+  }
+
+  .send-button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+// Responsive pour les écrans de mobile
+@media (max-width: 576px) {
+  .modal-content {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .modal-content form {
+    width: 100%;
+  }
+
+  .modal-content form input, 
+  .modal-content form textarea {
+    font-size: 0.9rem;
+  }
+
+  .send-button {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+  }
+}
+
+// Responsive pour les très petits écrans (320px)
+@media (max-width: 320px) {
+  .modal-content {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .modal-content form {
+    width: 100%;
+  }
+
+  .modal-content form input, 
+  .modal-content form textarea {
+    font-size: 0.85rem;
+    padding: 8px;
+  }
+
+  .send-button {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+}
