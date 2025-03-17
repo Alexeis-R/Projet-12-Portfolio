@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ContactUs from "../contact/ContactUs";
+import ContactUs from "../contact/contactus";
 import ThemeToggle from "../toogle_theme/index";
 
 function Header() {
