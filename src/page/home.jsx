@@ -15,7 +15,9 @@ function Home () {
             <About></About>
             <Seprator text="Mes compétences" />
             <Skills></Skills>
+            <Seprator text="Mes projets" />
             <Projects></Projects>
+
         </main>
        </Layout>
     )
