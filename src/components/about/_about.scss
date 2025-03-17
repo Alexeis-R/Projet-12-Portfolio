@@ -11,28 +11,105 @@
     width: 280px;
   }
 }
-  .personal_info{
-    h3 {
-      color: $text-color-dark;
-      font-size: 32px;
-      font-weight: 600;
-      margin-bottom: 10px;
-    }
 
-    p {
-      color: $secondary-color;
-      font-size: 14px;
-    }
+.personal_info {
+  h3 {
+    color: $text-color-dark;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
 
-    button {
-      margin-top: 30px;
+  p {
+    color: $secondary-color;
+    font-size: 14px;
+  }
+
+  button {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #about {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 0 30px;
+
+    img {
+      width: 240px;
     }
   }
 
+  .personal_info h3 {
+    font-size: 28px;
+  }
 
-@media screen and (max-width: 780px){
-  .about {
+  .personal_info p {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #about {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+
+    img {
+      width: 200px;
+    }
+  }
+
+  .personal_info h3 {
+    font-size: 24px;
+  }
+
+  .personal_info p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #about {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+
+    img {
+      width: 160px;
+    }
+  }
+
+  .personal_info h3 {
+    font-size: 20px;
+  }
+
+  .personal_info p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #about {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 0 5px;
+
+    img {
+      width: 140px;
+    }
+  }
+
+  .personal_info h3 {
+    font-size: 18px;
+  }
+
+  .personal_info p {
+    font-size: 10px;
   }
 }

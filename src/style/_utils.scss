@@ -11,3 +11,21 @@ body {
   height: 100vh;
   background: #212529;
 }
+
+@media screen and (max-width: 780px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 10px;
+  }
+}

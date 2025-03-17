@@ -1,4 +1,5 @@
 @import "../../style/variables";
+
 .seprator {
     margin: 50px 50px 30px;
     padding: 10px 20px;
@@ -6,4 +7,25 @@
     display: inline-block;
     color: $primary-color;
     border-radius: 12px;
-  }
+}
+
+@media screen and (max-width: 780px) {
+    .seprator {
+        margin: 40px 40px 20px;
+        padding: 8px 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .seprator {
+        margin: 30px 30px 15px;
+        padding: 6px 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .seprator {
+        margin: 20px 20px 10px;
+        padding: 4px 8px;
+    }
+}

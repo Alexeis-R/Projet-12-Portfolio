@@ -1,5 +1,5 @@
-
 @import "../../style/variables.scss";
+
 nav {
   display: flex;
   align-items: center;
@@ -10,11 +10,12 @@ nav {
   h1 {
     color: $primary-color;
     font-weight: 600;
+    margin-right: auto;
   }
 
   ul {
     display: flex;
-
+    margin-right: 15px;
     li {
       list-style: none;
 
@@ -36,22 +37,22 @@ nav {
     }
   }
 }
-@media screen and (max-width: 780px){
+
+@media screen and (max-width: 780px) {
   nav button {
     display: none;
   }
-
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
   nav {
     display: flex;
     justify-content: center;
-  
+
     h2 {
       display: none;
     }
-  
+
     ul {
       li {
         a {
@@ -60,5 +61,34 @@ nav {
       }
     }
   }
-  
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 0 20px;
+
+    ul {
+      li {
+        a {
+          font-size: 12px;
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  nav {
+    padding: 0 10px;
+
+    ul {
+      li {
+        a {
+          font-size: 10px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
 }
