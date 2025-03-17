@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Kasa",
       "description": "Application web de location immobilière",
-      "image": "/public/kasa.webp",
+      "image": "/kasa.webp",
       "url": "https://kasa-alexeis.netlify.app/",
       "github": "https://github.com/Alexeis-R/Projet7",
       "tags": [
@@ -17,7 +17,7 @@
       "id": 2,
       "name": "ROCK PAPER SCISSORS",
       "description": "Jeu du pierre-feuille-ciseaux",
-      "image": "/public/rock_paper_scissor.webp",
+      "image": "/rock_paper_scissor.webp",
       "url": "https://rock-paper-scissors-alexeis.netlify.app/",
       "github": "https://github.com/Alexeis-R/rock-paper-scissors",
       "tags": [
@@ -30,7 +30,7 @@
       "id": 3,
       "name": "OHMYFOOD",
       "description": " Application web de réservation de restaurant",
-      "image": "/public/ohmyfood.webp",
+      "image": "Ohmyfood.webp",
       "url": "https://ohmyfood-alexeis.netlify.app/",
       "github": "https://github.com/Alexeis-R/P4-ohmyfood",
       "tags": [
@@ -42,7 +42,7 @@
       "id": 4,
       "name": "BOOKI",
       "description": "Application de reservation d'hotel",
-      "image": "/public/Booki.webp",
+      "image": "/Booki.webp",
       "url": "https://booki-alexeis.netlify.app/",
       "github": "https://github.com/Alexeis-R/Booki",
       "tags": [
