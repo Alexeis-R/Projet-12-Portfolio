@@ -51,8 +51,10 @@ function ContactUs({ isOpen, onRequestClose }) {
   return (
     <div className="modal-overlay">
       <div className="modal-content">
-        <button className="close-button" onClick={onRequestClose}>X</button>
-        <form ref={form} onSubmit={sendEmail}>
+        <button className="close-button" onClick={onRequestClose}>
+        <i className="fas fa-times"></i>
+        </button>
+        <form className="form" ref={form} onSubmit={sendEmail}>
           <label>Name</label>
           <input
             type="text"
@@ -73,7 +75,7 @@ function ContactUs({ isOpen, onRequestClose }) {
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
-          <input type="submit" value="Send" />
+          <input type="submit" value="Send" className="send-button" />
         </form>
         {errorMessage && <p className="error-message">{errorMessage}</p>}
         {confirmationMessage && <p className="confirmation-message">{confirmationMessage}</p>}
