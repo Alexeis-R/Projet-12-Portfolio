@@ -7,16 +7,9 @@ function About () {
       <div className="personal_info">
         <h3>À propos de moi</h3>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque
-          eveniet vitae fugit accusamus, cupiditate labore quae officia sont
-          enim consectetur eligendi sit mollitia iste doloribus libero odio,
-          quidem optio autem! Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Neque eveniet vitae fugit accusamus, cupiditate
-          labore quae officia sont enim consectetur eligendi sit mollitia iste
-          doloribus libero odio, quidem optio autem! Lorem ipsum dolor sit, amet
-          consectetur adipisicing elit. Neque eveniet vitae fugit accusamus,
-          cupiditate labore quae officia sont enim consectetur eligendi sit
-          mollitia iste doloribus libero odio, quidem optio autem!
+        Actuellement en formation pour devenir intégrateur web, je suis passionné par les nouvelles technologies et tout ce qui touche au développement web. J’aime créer des interfaces modernes, fonctionnelles et accessibles, en alliant design et performance.
+        Sur ce portfolio, vous trouverez plusieurs de mes projets réalisés au cours de ma formation, notamment un jeu Pierre-Feuille-Ciseaux que j’ai développé avec enthousiasme. Chaque projet est pour moi une opportunité d’apprendre, d’expérimenter et d’affiner mes compétences.
+        Toujours curieux et motivé, je suis ouvert aux nouvelles expériences et collaborations. N’hésitez pas à me contacter !
         </p>
       </div>
     </div>
