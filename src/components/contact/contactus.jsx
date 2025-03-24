@@ -94,7 +94,7 @@ function ContactUs({ isOpen, onRequestClose }) {
           <input type="submit" value="Send" className="send-button" />
         </form>
         {errorMessage && <p className="error-message">{errorMessage}</p>}
-        {confirmationMessage && <p className="confirmation-message">{confirmationMessage}</p>}
+        {confirmationMessage && <p className="confirmation-message_success">{confirmationMessage}</p>}
       </div>
     </div>
   );
