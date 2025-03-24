@@ -4,7 +4,9 @@ import emailjs from '@emailjs/browser';
 function ContactUs({ isOpen, onRequestClose }) {
   const form = useRef();
   const [userName, setUserName] = useState('');
+  const [userFirstName, setUserFirstName] = useState('');
   const [userEmail, setUserEmail] = useState('');
+  const [userPhone, setUserPhone] = useState('');
   const [message, setMessage] = useState('');
   const [confirmationMessage, setConfirmationMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
@@ -16,7 +18,7 @@ function ContactUs({ isOpen, onRequestClose }) {
     setConfirmationMessage('');
     setErrorMessage('');
 
-    if (!userName || !userEmail || !message) {
+    if (!userName || !userFirstName || !userEmail || !userPhone || !message) {
       setErrorMessage('Veuillez remplir tous les champs.');
       return;
     }
@@ -55,12 +57,19 @@ function ContactUs({ isOpen, onRequestClose }) {
         <i className="fas fa-times"></i>
         </button>
         <form className="form" ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
+          <label>Nom</label>
           <input
             type="text"
             name="from_name"
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
+          />
+          <label>Prénom</label>
+          <input
+            type="text"
+            name="from_firstname"
+            value={userFirstName}
+            onChange={(e) => setUserFirstName(e.target.value)}
           />
           <label>Email</label>
           <input
@@ -68,6 +77,13 @@ function ContactUs({ isOpen, onRequestClose }) {
             name="from_email"
             value={userEmail}
             onChange={(e) => setUserEmail(e.target.value)}
+          />
+          <label>Téléphone</label>
+          <input
+            type="tel"
+            name="from_phone"
+            value={userPhone}
+            onChange={(e) => setUserPhone(e.target.value)}
           />
           <label>Message</label>
           <textarea
