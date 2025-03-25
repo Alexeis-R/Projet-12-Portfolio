@@ -16,16 +16,18 @@ function Header() {
   return (
     <header>
       <nav>
-        <h1>Alexeis ROCHA</h1>
+        <div className="nav-header">
+          <h1>Alexeis ROCHA</h1>
+          <ThemeToggle />
+        </div>
         <ul>
-          {/* <li><a href="#">Home</a></li> */}
           <li><a href="#skills">Compétences</a></li>
           <li><a href="#projets">Projets</a></li>
           <li><a href="#" onClick={handleContactClick}>Contact</a></li>
           <li><a href="#about">A Propos</a></li>
         </ul>
-        <ThemeToggle />
       </nav>
+
       <ContactUs isOpen={showContactForm} onRequestClose={closeModal} />
     </header>
   );
