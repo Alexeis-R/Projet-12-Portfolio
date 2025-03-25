@@ -2,20 +2,25 @@
 
 nav {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 80px;
-  padding: 0 50px;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  padding: 20px 50px;
+  position: relative;
 
   h1 {
     color: $primary-color;
     font-weight: 600;
-    margin-right: auto;
+    text-align: center;
+    margin-bottom: 15px;
   }
 
   ul {
     display: flex;
-    margin-right: 15px;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    
     li {
       list-style: none;
 
@@ -36,6 +41,18 @@ nav {
       }
     }
   }
+
+  .nav-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .nav-button-container {
+    position: static;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -46,29 +63,21 @@ nav {
 
 @media screen and (max-width: 650px) {
   nav {
-    display: flex;
-    justify-content: center;
-
-    h2 {
-      display: none;
-    }
+    padding: 20px 50px;
 
     ul {
+      align-items: center;
+      
       li {
-        a {
-          font-size: 14px;
-        }
+        margin-bottom: 10px;
       }
-    }
-    .theme-toggle-logo {
-      color: $background-color-dark;
     }
   }
 }
 
 @media screen and (max-width: 480px) {
   nav {
-    padding: 0 20px;
+    padding: 20px 20px;
 
     ul {
       li {
@@ -83,14 +92,14 @@ nav {
 
 @media screen and (max-width: 320px) {
   nav {
-    padding: 0 10px;
+    padding: 10px;
+  }
 
-    ul {
-      li {
-        a {
-          font-size: 10px;
-          margin-right: 10px;
-        }
+  ul {
+    li {
+      a {
+        font-size: 10px;
+        margin-right: 5px;
       }
     }
   }
