@@ -18,6 +18,6 @@ Mode clair/sombre dynamique
 
 Front-end : HTML, CSS, JavaScript, React
 
-Icônes & UI : FontAwesome,
+Icônes & UI : FontAwesome, Boxicons
 
 Hébergement : Netlify
