@@ -22,8 +22,7 @@ function Footer() {
         <div className="about-col">
           <h3>Alexeis ROCHA</h3>
           <p>Développeur Front-end</p>
-          <p>Tel: 00 00 00 00 00</p>
-          <p>E-mail: John.doe@email.fr</p>
+          <p>E-mail: alexeis.rocha1@icloud.com</p>
         </div>
 
         <div className="links-col">
