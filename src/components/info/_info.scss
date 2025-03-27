@@ -1,4 +1,4 @@
-@import "../../style/variables.scss";
+@use "../../style/variables" as *;
 
 .info {
   /* height: 640px; si rajout des vignettes */

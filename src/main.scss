@@ -1,12 +1,11 @@
-@import "./style/variables";
-@import "./style/utils";
-
-@import "./components/about/about";
-@import "./components/contact/contactUs";
-@import "./components/footer/footer";
-@import "./components/header/header";
-@import "./components/info/info";
-@import "./components/seprator/seprator";
-@import "./components/skills/skills";
-@import "./components/project/project";
-@import "./components/toogle_theme/toogle"
+@use "./style/variables" as *;
+@use "./style/utils" as *;
+@use "./components/about/about" as *;
+@use "./components/contact/contactUs" as *;
+@use "./components/footer/footer" as *;
+@use "./components/header/header" as *;
+@use "./components/info/info" as *;
+@use "./components/seprator/seprator" as *;
+@use "./components/skills/skills" as *;
+@use "./components/project/project" as *;
+@use "./components/toogle_theme/toogle" as *;
