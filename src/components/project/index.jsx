@@ -12,7 +12,7 @@ function Projects() {
             <div className="project-grid">
                 {projects.map((project) => (
                     <div key={project.id} className="project-card">
-                        <h4>{project.name}</h4>
+                        <h3>{project.name}</h3>
                         <p>{project.description}</p>
                         <img src={project.image} alt={project.name} />
                         <div className="project-links">
