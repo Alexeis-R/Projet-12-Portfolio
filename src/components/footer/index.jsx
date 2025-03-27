@@ -28,9 +28,9 @@ function Footer() {
         <div className="links-col">
           <h4>Liens Utiles</h4>
           <a href="#">Accueil</a>
-          <a href="#">À propos</a>
-          <a href="#">Compétences</a>
-          <a href="#">Portfolio</a>
+          <a href="#about">A Propos</a>
+          <a href="#skills">Compétences</a>
+          <a href="#projets">Projets</a>
           <a href="#" onClick={(e) => { e.preventDefault(); openModal(); }}>Contact</a>
         </div>
 
