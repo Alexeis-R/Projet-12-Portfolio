@@ -1,25 +1,24 @@
-import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 function ContactUs({ isOpen, onRequestClose }) {
-  const form = useRef();
-  const [userName, setUserName] = useState('');
-  const [userFirstName, setUserFirstName] = useState('');
-  const [userEmail, setUserEmail] = useState('');
-  const [userPhone, setUserPhone] = useState('');
-  const [message, setMessage] = useState('');
-  const [confirmationMessage, setConfirmationMessage] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [userName, setUserName] = useState("");
+  const [userFirstName, setUserFirstName] = useState("");
+  const [userEmail, setUserEmail] = useState("");
+  const [userPhone, setUserPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const [confirmationMessage, setConfirmationMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     // Réinitialiser les messages de confirmation et d'erreur avant d'envoyer
-    setConfirmationMessage('');
-    setErrorMessage('');
+    setConfirmationMessage("");
+    setErrorMessage("");
 
     if (!userName || !userFirstName || !userEmail || !userPhone || !message) {
-      setErrorMessage('Veuillez remplir tous les champs.');
+      setErrorMessage("Veuillez remplir tous les champs.");
       return;
     }
 
@@ -33,15 +32,17 @@ function ContactUs({ isOpen, onRequestClose }) {
       .then(
         () => {
           // Message de confirmation
-          setConfirmationMessage('Email envoyé avec succès!');
+          setConfirmationMessage("Email envoyé avec succès!");
           // Ferme la modale après 1 seconde pour permettre l'affichage du message
           setTimeout(() => {
             onRequestClose();
           }, 1000);
         },
         (error) => {
-          console.log('FAILED...', error.text);
-          setErrorMessage('Une erreur est survenue lors de l\'envoi. Veuillez réessayer plus tard.');
+          console.log("FAILED...", error.text);
+          setErrorMessage(
+            "Une erreur est survenue lors de l'envoi. Veuillez réessayer plus tard."
+          );
         }
       );
   };
@@ -54,9 +55,9 @@ function ContactUs({ isOpen, onRequestClose }) {
     <div className="modal-overlay">
       <div className="modal-content">
         <button className="close-button" onClick={onRequestClose}>
-        <i className="fas fa-times"></i>
+          <i className="fas fa-times"></i>
         </button>
-        <form className="form" ref={form} onSubmit={sendEmail}>
+        <form className="form" onSubmit={sendEmail}>
           <label>Nom</label>
           <input
             type="text"
@@ -94,7 +95,9 @@ function ContactUs({ isOpen, onRequestClose }) {
           <input type="submit" value="Send" className="send-button" />
         </form>
         {errorMessage && <p className="error-message">{errorMessage}</p>}
-        {confirmationMessage && <p className="confirmation-message_success">{confirmationMessage}</p>}
+        {confirmationMessage && (
+          <p className="confirmation-message_success">{confirmationMessage}</p>
+        )}
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <section className id="skills">
+    <section id="skills">
       <div className="right">
         <div className="item">
           <i className="bx bxl-html5"></i>
