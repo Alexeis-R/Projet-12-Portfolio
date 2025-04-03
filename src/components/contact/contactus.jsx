@@ -13,33 +13,35 @@ function ContactUs({ isOpen, onRequestClose }) {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Réinitialiser les messages de confirmation et d'erreur avant d'envoyer
+    // Réinitialiser les messages d'erreur et de confirmation
     setConfirmationMessage("");
     setErrorMessage("");
 
+    // Vérifier que tous les champs sont remplis
     if (!userName || !userFirstName || !userEmail || !userPhone || !message) {
       setErrorMessage("Veuillez remplir tous les champs.");
       return;
     }
 
+    console.log("Envoi de l'email...");
+
     emailjs
       .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        form.current,
+        e.target,
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
-          // Message de confirmation
-          setConfirmationMessage("Email envoyé avec succès!");
-          // Ferme la modale après 1 seconde pour permettre l'affichage du message
+          console.log("Email envoyé avec succès !");
+          setConfirmationMessage("Email envoyé avec succès !");
           setTimeout(() => {
             onRequestClose();
           }, 1000);
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          console.error("Erreur lors de l'envoi :", error);
           setErrorMessage(
             "Une erreur est survenue lors de l'envoi. Veuillez réessayer plus tard."
           );
@@ -64,35 +66,45 @@ function ContactUs({ isOpen, onRequestClose }) {
             name="from_name"
             value={userName}
             onChange={(e) => setUserName(e.target.value)}
+            required
           />
+
           <label>Prénom</label>
           <input
             type="text"
             name="from_firstname"
             value={userFirstName}
             onChange={(e) => setUserFirstName(e.target.value)}
+            required
           />
+
           <label>Email</label>
           <input
             type="email"
             name="from_email"
             value={userEmail}
             onChange={(e) => setUserEmail(e.target.value)}
+            required
           />
+
           <label>Téléphone</label>
           <input
             type="tel"
             name="from_phone"
             value={userPhone}
             onChange={(e) => setUserPhone(e.target.value)}
+            required
           />
+
           <label>Message</label>
           <textarea
             name="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
+            required
           />
-          <input type="submit" value="Send" className="send-button" />
+
+          <input type="submit" value="Envoyer" className="send-button" />
         </form>
         {errorMessage && <p className="error-message">{errorMessage}</p>}
         {confirmationMessage && (
