@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 function ContactUs({ isOpen, onRequestClose }) {
+  const formRef = useRef(null);
+
   const [userName, setUserName] = useState("");
   const [userFirstName, setUserFirstName] = useState("");
   const [userEmail, setUserEmail] = useState("");
@@ -13,13 +15,18 @@ function ContactUs({ isOpen, onRequestClose }) {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Réinitialiser les messages d'erreur et de confirmation
     setConfirmationMessage("");
     setErrorMessage("");
 
-    // Vérifier que tous les champs sont remplis
+    // Vérification que tous les champs sont remplis
     if (!userName || !userFirstName || !userEmail || !userPhone || !message) {
       setErrorMessage("Veuillez remplir tous les champs.");
+      return;
+    }
+
+    // Vérification si formRef.current est bien défini avant d'envoyer
+    if (!formRef.current) {
+      setErrorMessage("Le formulaire n'est pas encore disponible.");
       return;
     }
 
@@ -29,7 +36,7 @@ function ContactUs({ isOpen, onRequestClose }) {
       .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        e.target,
+        formRef.current,
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
@@ -59,7 +66,7 @@ function ContactUs({ isOpen, onRequestClose }) {
         <button className="close-button" onClick={onRequestClose}>
           <i className="fas fa-times"></i>
         </button>
-        <form className="form" onSubmit={sendEmail}>
+        <form ref={formRef} className="form" onSubmit={sendEmail}>
           <label>Nom</label>
           <input
             type="text"
